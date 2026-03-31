@@ -16,7 +16,7 @@
 - Roolit sijaitsevat roles/-kansiossa, esim. tasks/main.yml sisältää tehtävät
 - YAML vaatii välilyönnit (ei tabit) ja oikean sisennyksen
 ---
-### a) a) Sshecrets. Asenna SSH-demoni ja testaa se kirjautumalla SSH:lla.
+### a) Sshecrets. Asenna SSH-demoni ja testaa se kirjautumalla SSH:lla.
 Asensin ssh serverin komennolla **sudo apt install openssh-server** jonka jälkeen käynnistin sen komennolla **sudo systemctl enable --now ssh.** Kirjauduin sitten sisään komennolla **ssh localhost.**
 ---
 ### b) Pubkey. Automatisoi ssh-kirjautuminen julkisella avaimella.
