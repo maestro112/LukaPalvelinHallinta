@@ -16,15 +16,15 @@
 - Roolit sijaitsevat roles/-kansiossa, esim. tasks/main.yml sisältää tehtävät
 - YAML vaatii välilyönnit (ei tabit) ja oikean sisennyksen
 ---
-### a) Sshecrets. Asenna SSH-demoni ja testaa se kirjautumalla SSH:lla.
-Asensin ssh serverin komennolla **sudo apt install openssh-server** jonka jälkeen käynnistin sen komenolla **sudo systemctl enable --now ssh.**
-Kirjauduin sitten sisään komenolla **ssh localhost**
+### a) a) Sshecrets. Asenna SSH-demoni ja testaa se kirjautumalla SSH:lla.
+Asensin ssh serverin komennolla **sudo apt install openssh-server** jonka jälkeen käynnistin sen komennolla **sudo systemctl enable --now ssh.** Kirjauduin sitten sisään komennolla **ssh localhost.**
 ---
 ### b) Pubkey. Automatisoi ssh-kirjautuminen julkisella avaimella.
-Seuraavaksi loin avaimen komenolla **ssh-keygen** ja painoin kolme kertaa enter. Sitten kopioin julkisen avaimen komenolla **ssh-copy-id localhost** tämän jälkeen kirjautuminen oli automatisoitu
+Seuraavaksi loin avaimen komennolla **ssh-keygen** ja painoin kolme kertaa enter. Sitten kopioin julkisen avaimen komennolla **ssh-copy-id localhost** tämän jälkeen kirjautuminen oli automatisoitu
 ---
 ### c) Hei Ansible. Tee hei maailma ansiblella ja kokeile sitä SSH:n yli.
 Tässä lopputulokset 
 
 ![Lpputulos](kuvat/H1/image1.png)
+---
 ![Lpputulos](kuvat/H1/image9.png)
