@@ -2,20 +2,18 @@
 
 ## Sudo without password
 - **Komento sudo \-i** toisessa ikkunassa varotoimena kun räplätään sudon kanssa.  
-- cat /etc/sudoers.d/sudoless \-\> %sudoless ALL \= (ALL) NOPASSWD: ALL
+- cat /etc/sudoers.d/sudoless ---> %sudoless ALL = (ALL) NOPASSWD: ALL
 
 ## xkcd 149: Sandwitch
-- sudo \ Taikasana 
+- sudo = Taikasana 
 
 ## Passwordless Sudo with Ansible
 - Aina manuaalina ennen automatisointia  
-- \-K kysy become-password.
+- -K parametri = become-password.
 
 ## Ansible-doc
 
-**copy**
-
-Kopioi tiedostoja ohjauskoneelta kohdekoneelle tai luo sisältöä suoraan kohteeseen.
+**copy** Kopioi tiedostoja ohjauskoneelta kohdekoneelle tai luo sisältöä suoraan kohteeseen.
 
 content – kirjoittaa annetun tekstisisällön suoraan tiedostoon
 
@@ -30,9 +28,7 @@ group – tiedoston ryhmä
 mode – käyttöoikeudet (esim. 0644)
 
 ---
-**apt**
-
-Hallinnoi paketteja Debian/Ubuntu-järjestelmissä apt-paketinhallinnan kautta.
+**apt** Hallinnoi paketteja.
 
 Name – paketin nimi
 
@@ -41,9 +37,7 @@ state – tila (present, absent, latest)
 update_cache – päivittää pakettivaraston (true/false)
 
 ---
-**file**
-
-Hallinnoi tiedostojen, hakemistojen ja linkkien olemassaoloa ja ominaisuuksia.
+**file** Hallinnoi tiedostojen, hakemistojen ja linkkien olemassaoloa ja ominaisuuksia.
 
 path – kohteen polku
 
@@ -60,9 +54,7 @@ group – ryhmä
 mode – oikeudet
 
 ---
-**user**
-
-Hallinnoi käyttäjätilejä kohdejärjestelmässä.
+**user** Hallinnoi käyttäjätilejä kohdejärjestelmässä.
 
 name – käyttäjän nimi
 
@@ -79,9 +71,7 @@ shell – oletusshell
 system – onko järjestelmäkäyttäjä (true/false)
 
 ---
-**authorized_key**
-
-Lisää tai poistaa SSH-avaimia käyttäjän authorized_keys-tiedostosta.
+**authorized_key** Lisää tai poistaa SSH-avaimia käyttäjän authorized_keys-tiedostosta.
 
 user – käyttäjä, jolle avain lisätään
 
@@ -90,12 +80,12 @@ key – julkinen SSH-avain
 
 ## Tehtävät
  
-a) Ensimmäisenä loin käyttäjän komennolla **sudo adduser**. Sitten loin ryhmän sudoless komennolla sudo **groupadd sudoless** jonka jälkeen lisäsin uuden käyttäjän luke tähän ryhmään komennolla **sudo adduser luke sudoless**. Tämän jälkeen menin /etc/sudoers.d/sudoless visudo editorilla jossa lisäsin  **%sudoless ALL \= (ALL) NOPASSWD: ALL** säännön sudoless ryhmälle mikä sallii sudon käytön ilman salasanaa.
+a) Ensimmäisenä loin käyttäjän komennolla **sudo adduser**. Sitten loin ryhmän sudoless komennolla sudo **groupadd sudoless** jonka jälkeen lisäsin uuden käyttäjän luke tähän ryhmään komennolla **sudo adduser luke sudoless**. Tämän jälkeen menin /etc/sudoers.d/sudoless visudo editorilla jossa lisäsin  **%sudoless ALL = (ALL) NOPASSWD: ALL** säännön sudoless ryhmälle mikä sallii sudon käytön ilman salasanaa.
  
 ![Lpputulos](kuvat/H2/image1.png)
 
  ---
-b) Seuraavaksi tein saman ansiblella tekemällä uuden roolin sudoles ja lisäämällä roolille kuvassa näkyvät tehtävät.  
+b) Seuraavaksi tein saman ansiblella tekemällä uuden roolin **sudoless** ja lisäämällä roolille kuvassa näkyvät tehtävät. Ajoin sitten main.yml -K parametrillä.  
 
  ![Lpputulos](kuvat/H2/image1.png)
  ![Lpputulos](kuvat/H2/image7.png)
@@ -106,7 +96,7 @@ c) Seuraavaksi asensin kaksi pakettia ansiblella fastfetch ja tree.
 
 ![Lpputulos](kuvat/H2/image6.png)
 
-molemmat asentuivat ilman ongelmia tässä fastfetchistä kuva.   .
+Molemmat asentuivat ilman ongelmia tässä fastfetchistä kuva.   
 ![Lpputulos](kuvat/H2/image9.png)
 
 ---
