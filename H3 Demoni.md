@@ -24,11 +24,11 @@ Sitten lisäsin vielä tiedostoille /home/luka/ ajo-oikeudet, /home/luka/nettisi
 Tämän jälkeen pääsin sivulle ja muut käyttäjät pystyvät muokkaamaan sivua ilman sudoa. 
 
 ---
-b) Seuraavaksi asensin nginxin saman lailla. Ainoana erona oli että minun täytyi mennä /etc/ngixn/sites-avaible/default ja muutin sieltä document rootin kotihakemistoon. 
+b) Seuraavaksi asensin nginxin sallatavalla kuin apache2. Ainoana erona oli että minun täytyi mennä /etc/ngixn/sites-avaible/default ja muutin sieltä document root kohta kotihakemistooni.
 
 ![Lpputulos](kuvat/H3/image8.png) 
 
-Tämän jälkeen käynnistin nginxin uudelleen ja netti sivu toimi. Käytin samaa index.html tiedostoa minkä olin tehnyt apachea varten. Sammutin vain apachen niin kaikki sujui hyvin.
+Tämän jälkeen käynnistin nginxin uudelleen ja nettisivu toimi. Käytin samaa index.html tiedostoa minkä olin tehnyt apachea varten. Sammutin vain apachen niin kaikki sujui hyvin.
 
 ---
 c) Viimeisenä aloitin tekemällä kansiot ja tiedostot valmiiksi. 
