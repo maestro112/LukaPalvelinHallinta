@@ -35,11 +35,11 @@ c) Viimeisenä aloitin tekemällä kansiot ja tiedostot valmiiksi.
 
 ![Lpputulos](kuvat/H3/image2.png) 
 
-Kopioin /files/ default config tiedoston mikä toimi kun tein tämän manuaalisesti. Handlers main.yml tiedoston täytin seuraavanlaisesti 
+Kopioin /files/default config tiedoston mikä toimi kun tein tämän manuaalisesti. Handlers main.yml tiedoston täytin seuraavanlaisesti 
 
 ![Lpputulos](kuvat/H3/image7.png) 
 
-ja tasks main.yml 
+ja /tasks/main.yml 
 
 ![Lpputulos](kuvat/H3/image5.png) 
 
