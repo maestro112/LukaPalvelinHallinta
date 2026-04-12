@@ -8,7 +8,7 @@
 
 ## Tehtävät
 
-a) Aloitin tehtävän asentamalla apachen komennolla sudo apt install apache2. Sitten loin uuden tiedoston johon haluan sijoittaa nettisivun /home/luka/nettisivu/. 
+a) Aloitin tehtävän asentamalla apachen komennolla **sudo apt install apache2**. Sitten loin uuden tiedoston johon haluan sijoittaa nettisivun /home/luka/nettisivu/. 
 Seuraavaksi menin /etc/apache2/sites-avaible/ ja loin tiedoston etusivu.conf ja laitoin sinne kuvassa näkyvän sisällön.
 
 ![Lpputulos](kuvat/H3/image1.png)
@@ -35,7 +35,7 @@ c) Viimeisenä aloitin tekemällä kansiot ja tiedostot valmiiksi.
 
 ![Lpputulos](kuvat/H3/image2.png) 
 
-Kopioin /files/default config tiedoston mikä toimi kun tein tämän manuaalisesti. Handlers main.yml tiedoston täytin seuraavanlaisesti 
+Kopioin **/files/default** config tiedoston mikä toimi kun tein tämän manuaalisesti. Handlers main.yml tiedoston täytin seuraavanlaisesti 
 
 ![Lpputulos](kuvat/H3/image7.png) 
 
@@ -48,6 +48,4 @@ Playbook suorituksen jälkeen ansible oli kopioinut oikean default tiedoston van
 
 
 
-a) Apassi. Asenna Apache 2 käsin. Weppisivun tulee näkyä palvelimen etusivulla. Sivun tulee olla tavallisen käyttäjän muokattavissa, ilman root- tai sudo-oikeuksia.
-b) Moottorix. Asenna Nginx käsin. Weppisivun tulee näkyä palvelimen etusivulla. Sivun tulee olla tavallisen käyttäjän muokattavissa, ilman root- tai sudo-oikeuksia. (Muista sammuttaa Apache ensin.)
-c) Automoottorix. Automatisoi Nginx asennus Ansiblella. Ylläpitäjän osuus Ansiblella riittää, itse HTML-weppisivut voi tehdä käsin.
+
