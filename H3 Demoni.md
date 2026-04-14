@@ -1,11 +1,24 @@
+# H3 Deemoni
 
 
+## Tiivistykst
 
+### Karvinen 2026: Apache installed with Ansible - quick notes
+- Muutokset laukaisevat handlerin mikä käynnistää apachen uudelleen. 
+- Jos DocumentRoot on käyttäjän kotihakemistossa, sivuja voi muokata ilman root/sudo oikeuksia.
 
+### Ansible Community Documentation: Handlers: running operations on change
+- Handlerit ovat tehtäviä, jotka suoritetaan vain silloin kun jokin task muuttuu (esim. konfiguraation päivitys → palvelun restart)
+- Taskit käyttävät **notify** avainta kutsuakseen handlereita muutoksen tapahtuessa. Sama handler suoritetaan vain kerran vaikka sitä kutsuttaisiin useasti.
 
+### ansible-doc service
+- **MODULE** moduuli hallitsee palveluita --> **käynnistys, pysäytys, uudelleenkäynnistys ja käynnistyminen bootissa**.
+- **enabled** Määrittää käynnistyykö palvelu automaattisesti järjestelmän käynnistyessä **true/false**.
+- **name** Palvelun nimi jota hallitaan esim. apache2, nginx
+- **state** Palvelun tila esim. **present, started, stopped**.
+- **EXAMPLES** Esimerkeissä näytetään käyttötapauksia, kuten palvelun käynnistys, pysäytys, restart ja automaattisen käynnistyksen asetus.
 
-
-
+---
 ## Tehtävät
 
 a) Aloitin tehtävän asentamalla apachen komennolla **sudo apt install apache2**. Sitten loin uuden tiedoston johon haluan sijoittaa nettisivun /home/luka/nettisivu/. 
