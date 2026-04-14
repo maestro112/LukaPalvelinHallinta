@@ -1,7 +1,7 @@
 # H3 Deemoni
 
 
-## Tiivistykst
+## Tiivistykset
 
 ### Karvinen 2026: Apache installed with Ansible - quick notes
 - Muutokset laukaisevat handlerin mikä käynnistää apachen uudelleen. 
