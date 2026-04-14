@@ -59,6 +59,9 @@ ja /tasks/main.yml
 Kun suoritin playbookin kaikki meni läpi ilman ongelmia. Menin vielä testimielessä vaihtamaan /etc/ngixn/sites-avaible/default tiedostossa root kohdan vääräksi jotta näen että vaihtaako ansible sen oikeaksi.
 Playbook suorituksen jälkeen ansible oli kopioinut oikean default tiedoston vanhan päälle ja nettisivu toimi.
 
-
+---
+## Lähteet
+Tero Karvinen Apache installed with Ansible - quick notes. Luettavissa:https://terokarvinen.com/apache-ansible/ Luettu: 12.4.2026
+Ansible Community Documentation. Luettavissa:https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_handlers.html Luettu: 12.4.2026
 
 
