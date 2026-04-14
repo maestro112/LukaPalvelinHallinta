@@ -37,7 +37,7 @@ Sitten lisäsin vielä tiedostoille /home/luka/ ajo-oikeudet, /home/luka/nettisi
 Tämän jälkeen pääsin sivulle ja muut käyttäjät pystyvät muokkaamaan sivua ilman sudoa. 
 
 ---
-b) Seuraavaksi asensin nginxin samallatavalla kuin apache2. Ainoana erona oli että minun täytyi mennä** /etc/ngixn/sites-avaible/default** ja muutin sieltä document root kohdan kotihakemistooni.
+b) Seuraavaksi asensin nginxin samallatavalla kuin apache2. Ainoana erona oli että minun täytyi mennä **/etc/ngixn/sites-avaible/default** ja muutin sieltä document root kohdan kotihakemistooni.
 
 ![Lpputulos](kuvat/H3/image8.png) 
 
