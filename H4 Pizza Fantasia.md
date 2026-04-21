@@ -6,11 +6,11 @@ Karvinen 2023: Configuration Management of Distributed Systems over Unreliable a
 
 **Ominaisuuksien määrä**
 - Ominaisuuksia on paljon mutta vain pieni määrä tarvitaan sillä ne kattavat lähes koko käytön.
-
+- Yli 1 % käytetyt komennot kattoivat 87 % kaikesta käytöstä
 ---
 **Mitä oikeasti käytetään**
 - Neljä eniten käytettyä funktiota olivat -> **file, package, service ja exec**.
-
+- Suurin osa konfiguraatiosta tehdään perusfunktiolla ja yksinkertaisilla ehtorakenteilla.
 ---
 **Tärkeimmät rakennuspalikat**
 - package > ohjelmistojen asennus.
