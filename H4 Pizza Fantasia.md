@@ -1,4 +1,4 @@
-# h4 Pizza Fantasia
+# H4 Pizza Fantasia
 
 ## Tiivistelmät
 Karvinen 2023: Configuration Management of Distributed Systems over Unreliable and Hostile Networks
@@ -18,3 +18,8 @@ Karvinen 2023: Configuration Management of Distributed Systems over Unreliable a
 - service > palveluiden **demonien** hallinta.
 - user, group > käyttäjähallinta.
 - exec > komentojen suoritus.
+
+
+## Tehtävät
+
+a) 
