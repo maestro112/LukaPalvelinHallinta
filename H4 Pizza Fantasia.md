@@ -19,7 +19,7 @@ Karvinen 2023: Configuration Management of Distributed Systems over Unreliable a
 - user, group > käyttäjähallinta.
 - exec > komentojen suoritus.
 
-
+---
 ## Tehtävät
 Asensin tässä harjoituksessa samban ja smbclientin. Samban avulla Linux voi käyttää SMB-protokollaa tiedostojen jakamiseen verkossa, esimerkiksi Windowsin kanssa.
 
