@@ -88,4 +88,4 @@ Suoritin playbookin kaikki asentui takas ja conf tiedosto korvattiin onnistunees
 
 ---
 ## Lähteet
-Karvinen, Tero 2024. Configuration Management of Distributed Systems over Unreliable and Hostile Networks. Luettavissa:https://doi.org/10.34737/w7vvz Luettu: 12.4.2026
+Karvinen, Tero 2024. Configuration Management of Distributed Systems over Unreliable and Hostile Networks. Luettavissa:https://doi.org/10.34737/w7vvz Luettu: 20.4.2026
