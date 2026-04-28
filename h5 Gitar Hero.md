@@ -24,7 +24,7 @@ Commit on pysyvä tallennus Gitin tietokantaan
 
 **git push:** Lähettää omat commitit palvelimelle esim. Github
 
-**;:** Suorittaa seuraavan komennon riippumatta siitä onnistuiko edellinen
+**; :** Suorittaa seuraavan komennon riippumatta siitä onnistuiko edellinen
 
 ---
 ## Tehtävät
