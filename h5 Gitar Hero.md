@@ -16,11 +16,15 @@ Commit on pysyvä tallennus Gitin tietokantaan
 ### Gitin käyttö
 **git add --all:** Lisää kaikki muutokset (**uudet, muokatut ja poistetut tiedostot**) staging alueelle.
 
+**&&:** Suorittaa seuraavan komennon vain jos edellinen onnistui
+
 **git commit:** Tallentaa staging alueen sisällön uutena snapshotina
 
 **git pull:** Hakee muutokset palvelimelta ja tuo ne haluttuun paikkaan
 
 **git push:** Lähettää omat commitit palvelimelle esim. Github
+
+**;:** Suorittaa seuraavan komennon riippumatta siitä onnistuiko edellinen
 
 ---
 ## Tehtävät
