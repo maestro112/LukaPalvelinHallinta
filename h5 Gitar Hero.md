@@ -80,17 +80,17 @@ Lisäsin tasks hakemistoon main.yml tiedoston minkä sisältö näkyy kuvassa.
 
 Koodin toiminnot:
 
-**name:** Pull Git → vain kuvaus tehtävälle
+**name:** pull Git vain kuvaus tehtävälle
 
-**git:** → kertoo, että käytetään Ansible git moduulia
+**git:** kertoo että käytetään Ansible git moduulia
 
-**repo:** https://github.com/Supajohn/Sunshine.git → mistä Git-repositoriosta haetaan koodi
+**repo:** mistä Git repositoriosta haetaan
 
-**dest:** /Sunshine → mihin hakemistoon koodi kloonataan palvelimella
+**dest:** mihin hakemistoon kloonataan palvelimella
 
-**version:** main → mikä haara (branch) haetaan tässä tilanteessa main
+**version:** mikä haara (branch) haetaan tässä tilanteessa main
 
-**update:** yes → jos repo on jo olemassa, se päivitetään (git pull)
+**update:** jos repo on jo olemassa, se päivitetään (git pull)
 
 ![kuva](kuvat/H5/image14.png)
 
@@ -107,6 +107,11 @@ Testi mielessä kokeilin vielä luomalla uuden tiedoston webissä ja sitten suor
 ---
 ## Lähteet 
 
-d kohta AI 
+1.3 Getting Started - What is Git? Luettavissa:https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F Luettu: 20.4.2026
+
+Staging All Files in Git Luettavissa:https://www.geeksforgeeks.org/git/how-to-add-all-files-in-git/ Luettu: 20.4.2026
+
+d kohdassa käytetty AI apuna.
+
 
 
