@@ -71,3 +71,22 @@ dest: /Sunshine → mihin hakemistoon koodi kloonataan palvelimella
 version: main → mikä haara (branch) haetaan tässä tilanteessa main
 
 update: yes → jos repo on jo olemassa, se päivitetään (git pull)
+
+![kuva](kuvat/H5/image14.png)
+
+Komento suoriutui ilman ongelmia. 
+
+![kuva](kuvat/H5/image9.png)
+
+Testi mielessä kokeilin vielä luomalla uuden tiedoston webissä ja sitten suorittamalla ansible playbookin. Tiedosto vedettiin koneelle onnistuneesti oikeaan paikkaan.
+
+![kuva](kuvat/H5/image7.png)
+
+![kuva](kuvat/H5/image2.png)
+
+---
+## Lähteet 
+
+d kohta AI 
+
+
