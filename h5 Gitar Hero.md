@@ -82,8 +82,6 @@ Seuraavaksi loin ansible kansioon uuden roolin ja tehtävän.
 
 Lisäsin tasks hakemistoon main.yml tiedoston minkä sisältö näkyy kuvassa.
 
-Koodin toiminnot:
-
 **name:** pull Git vain kuvaus tehtävälle
 
 **git:** kertoo että käytetään Ansible git moduulia
