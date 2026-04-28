@@ -71,7 +71,7 @@ Tässä tarkastelin git logia komennolla git log –patch. Sähköposti ja nimi 
 ![kuva](kuvat/H5/image5.png)
 
 ---
-### f 
+### e 
 Seuraavaksi loin ansible kansioon uuden roolin ja tehtävän.
 
 ![kuva](kuvat/H5/image13.png)
@@ -105,6 +105,10 @@ Testi mielessä kokeilin vielä luomalla uuden tiedoston webissä ja sitten suor
 ![kuva](kuvat/H5/image2.png)
 
 <img width="753" height="288" alt="image" src="https://github.com/user-attachments/assets/346040a1-6469-477a-b357-ef7cb482e32e" />
+
+---
+### f
+pari hankittu
 
 ---
 ## Lähteet 
