@@ -2,7 +2,27 @@
 
 ## Tiivistykset
 
+### What is Git?
 
+Git toimii snapshotteina
+
+Tiedostot kulkevat tilojen läpi **modified → staged → committed**
+
+Suurin osa operaatioista tapahtuu paikallisesti ja pull/push hoitaa verkon yli synkronoinnin
+
+Commit on pysyvä tallennus Gitin tietokantaan
+
+---
+### Gitin käyttö
+**git add --all:** Lisää kaikki muutokset (**uudet, muokatut ja poistetut tiedostot**) staging alueelle.
+
+**git commit:** Tallentaa staging alueen sisällön uutena snapshotina
+
+**git pull:** Hakee muutokset palvelimelta ja tuo ne haluttuun paikkaan
+
+**git push:** Lähettää omat commitit palvelimelle esim. Github
+
+---
 ## Tehtävät
 
 ### a) 
@@ -18,7 +38,7 @@ Seuraavaksi kävin kopioimassa ssh julkisen avaimen.
 
 ![kuva](kuvat/H5/image8.png)
 
-Koska virtuaalikoneen julkinen avain oli jo lisätty minun githubiin niin en voi lisätä sitä enään toista kertaa. Alla olevassa kuvassa näkyy kuitenkin miten sen tekisin eli settings → Deploy keys. Julkinen avain menee key kohtaan ja allow write access jos haluat työntää koneelta palvelimelle.
+Koska virtuaalikoneen julkinen avain oli jo lisätty minun githubiin niin en voi lisätä sitä enään toista kertaa. Alla olevassa kuvassa näkyy kuitenkin miten sen tekisin eli **settings → Deploy keys**. Julkinen avain menee key kohtaan ja allow write access jos haluat työntää koneelta palvelimelle.
 
 ![kuva](kuvat/H5/image10.png)
 
@@ -32,7 +52,7 @@ Tämän jälkeen menin koneelle ja kopioin varaston komennolla git clone.
 
 ![kuva](kuvat/H5/image4.png)
 
-Seuraavaksi loin varastoon tiedoston sunshine.txt. ja työnsin sen palvelimelle komennoilla git add -–all, git commit ja git push.
+Seuraavaksi loin varastoon tiedoston **sunshine.txt**. ja työnsin sen palvelimelle komennoilla** git add -–all, git commit ja git push**.
 
 ![kuva](kuvat/H5/image1.png)
 
@@ -40,7 +60,7 @@ Seuraavaksi loin varastoon tiedoston sunshine.txt. ja työnsin sen palvelimelle 
 
 ---
 ### c
-Tässä kokeilin git reset –hard komentoa. Kirjoitin jotain siansaksaa ja tallensin sen tiedostoon. Git reset –hard vaihtoi näköjään tiedoston sisällön takaisin viimeisimmän commitin sisältöön.  
+Tässä kokeilin **git reset –-hard** komentoa. Kirjoitin jotain siansaksaa ja tallensin sen tiedostoon. **Git reset --hard** vaihtoi näköjään tiedoston sisällön takaisin viimeisimmän commitin sisältöön.  
 
 ![kuva](kuvat/H5/image15.png)
 
@@ -60,17 +80,17 @@ Lisäsin tasks hakemistoon main.yml tiedoston minkä sisältö näkyy kuvassa.
 
 Koodin toiminnot:
 
-name: Pull Git → vain kuvaus tehtävälle
+**name:** Pull Git → vain kuvaus tehtävälle
 
-git: → kertoo, että käytetään Ansible git moduulia
+**git:** → kertoo, että käytetään Ansible git moduulia
 
-repo: https://github.com/Supajohn/Sunshine.git → mistä Git-repositoriosta haetaan koodi
+**repo:** https://github.com/Supajohn/Sunshine.git → mistä Git-repositoriosta haetaan koodi
 
-dest: /Sunshine → mihin hakemistoon koodi kloonataan palvelimella
+**dest:** /Sunshine → mihin hakemistoon koodi kloonataan palvelimella
 
-version: main → mikä haara (branch) haetaan tässä tilanteessa main
+**version:** main → mikä haara (branch) haetaan tässä tilanteessa main
 
-update: yes → jos repo on jo olemassa, se päivitetään (git pull)
+**update:** yes → jos repo on jo olemassa, se päivitetään (git pull)
 
 ![kuva](kuvat/H5/image14.png)
 
