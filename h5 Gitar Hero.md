@@ -109,9 +109,15 @@ Testi mielessä kokeilin vielä luomalla uuden tiedoston webissä ja sitten suor
 ---
 ## Lähteet 
 
-1.3 Getting Started - What is Git? Luettavissa:https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F Luettu: 20.4.2026
+1.3 Getting Started - What is Git? Luettavissa:https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F Luettu: 27.4.2026
 
-Staging All Files in Git Luettavissa:https://www.geeksforgeeks.org/git/how-to-add-all-files-in-git/ Luettu: 20.4.2026
+git-add Luettavissa:https://git-scm.com/docs/git-add Luettu: 27.4.2026
+
+git-commit Luettavissa:https://git-scm.com/docs/git-commit Luettu: 27.4.2026
+
+git-pull Luettavissa:https://git-scm.com/docs/git-pull Luettu: 27.4.2026 
+
+git-push Luettavissa:https://git-scm.com/docs/git-push Luettu: 27.4.2026 
 
 d kohdassa käytetty AI apuna.
 
