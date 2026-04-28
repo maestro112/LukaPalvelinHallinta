@@ -98,7 +98,7 @@ Komento suoriutui ilman ongelmia.
 
 ![kuva](kuvat/H5/image9.png)
 
-Testi mielessä kokeilin vielä luomalla uuden tiedoston webissä ja sitten suorittamalla ansible playbookin. Tiedosto vedettiin koneelle onnistuneesti oikeaan paikkaan.
+Testi mielessä kokeilin vielä luomalla uuden tiedoston webissä ja sitten suorittamalla ansible playbookin. Tiedosto vedettiin onnistuneesti koneelle oikeaan paikkaan.
 
 ![kuva](kuvat/H5/image7.png)
 
